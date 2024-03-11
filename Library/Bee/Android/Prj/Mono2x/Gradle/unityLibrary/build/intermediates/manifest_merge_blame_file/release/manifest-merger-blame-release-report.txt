@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+11-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-77
+12-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-74
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-69
+13-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:20-66
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-78
+14-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:20-75
+15
+16    <uses-feature android:glEsVersion="0x00030000" />
+16-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-52
+16-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-49
+17    <uses-feature
+17-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-91
+18        android:name="android.hardware.vulkan.version"
+18-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-63
+19        android:required="false" />
+19-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:64-88
+20    <uses-feature
+20-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-87
+21        android:name="android.hardware.microphone"
+21-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-59
+22        android:required="false" />
+22-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:60-84
+23    <uses-feature
+23-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-88
+24        android:name="android.hardware.touchscreen"
+24-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-60
+25        android:required="false" />
+25-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:61-85
+26    <uses-feature
+26-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-99
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-71
+28        android:required="false" />
+28-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:72-96
+29    <uses-feature
+29-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-108
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:17-80
+31        android:required="false" />
+31-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:81-105
+32    <uses-feature
+32-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-111
+33        android:name="android.hardware.vr.headtracking"
+33-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:17-64
+34        android:required="true"
+34-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:65-88
+35        android:version="1" />
+35-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:89-108
+36
+37    <application
+37-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:3-35:17
+38        android:allowBackup="false"
+38-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:114-141
+39        android:extractNativeLibs="true"
+39-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+40        android:icon="@mipmap/app_icon"
+40-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:82-113
+41        android:label="@string/app_name"
+41-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:49-81
+42        android:networkSecurityConfig="@xml/network_sec_config" >
+42-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:142-197
+43        <meta-data
+43-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+44            android:name="unity.splash-mode"
+44-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+45            android:value="0" />
+45-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+46        <meta-data
+46-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+47            android:name="unity.splash-enable"
+47-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+48            android:value="True" />
+48-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+49        <meta-data
+49-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+50            android:name="unity.launch-fullscreen"
+50-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+51            android:value="True" />
+51-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+52        <meta-data
+52-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+53            android:name="unity.allow-resizable-window"
+53-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+54            android:value="False" />
+54-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
+55        <meta-data
+55-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+56            android:name="notch.config"
+56-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+57            android:value="portrait|landscape" />
+57-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+58        <meta-data
+58-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-84
+59            android:name="unity.auto-report-fully-drawn"
+59-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-60
+60            android:value="true" />
+60-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:61-81
+61
+62        <activity
+62-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-29:16
+63            android:name="com.unity3d.player.UnityPlayerActivity"
+63-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:15-68
+64            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+64-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:204-305
+65            android:exported="true"
+65-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:377-400
+66            android:hardwareAccelerated="false"
+66-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:341-376
+67            android:launchMode="singleTask"
+67-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:172-203
+68            android:resizeableActivity="false"
+68-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:306-340
+69            android:screenOrientation="landscape"
+69-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:134-171
+70            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+70-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:69-133
+71            <intent-filter>
+71-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:7-25:23
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:9-69
+72-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:19-66
+73
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:9-61
+74-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-58
+75
+76                <category android:name="com.oculus.intent.category.VR" />
+76-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:9-66
+76-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:19-63
+77            </intent-filter>
+78
+79            <meta-data
+79-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:7-82
+80                android:name="unityplayer.UnityActivity"
+80-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:18-58
+81                android:value="true" />
+81-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:59-79
+82            <meta-data
+82-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:7-70
+83                android:name="notch_support"
+83-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:18-46
+84                android:value="true" />
+84-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:47-67
+85            <meta-data
+85-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:7-81
+86                android:name="com.oculus.vr.focusaware"
+86-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:18-57
+87                android:value="true" />
+87-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:58-78
+88        </activity>
+89
+90        <meta-data
+90-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:5-97
+91            android:name="com.samsung.android.vr.application.mode"
+91-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:16-70
+92            android:value="vr_only" />
+92-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:71-94
+93        <meta-data
+93-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:5-91
+94            android:name="com.unity.xr.oculus.LowOverheadMode"
+94-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:16-66
+95            android:value="false" />
+95-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:67-88
+96        <meta-data
+96-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-88
+97            android:name="com.unity.xr.oculus.LateLatching"
+97-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-63
+98            android:value="false" />
+98-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:64-85
+99        <meta-data
+99-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-93
+100            android:name="com.unity.xr.oculus.LateLatchingDebug"
+100-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-68
+101            android:value="false" />
+101-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:69-90
+102        <meta-data
+102-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-123
+103            android:name="com.oculus.supportedDevices"
+103-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-58
+104            android:value="quest2|questpro"
+104-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:59-90
+105            tools:replace="android:value" />
+105-->C:\Users\dysle\Setanta\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:91-120
+106    </application>
+107
+108</manifest>
